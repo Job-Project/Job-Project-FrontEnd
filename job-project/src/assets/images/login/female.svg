@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15.406" height="26" viewBox="0 0 15.406 26">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <path id="Icon_metro-female" data-name="Icon metro-female" class="cls-1" d="M19.961,19.953v3.17h3.852v3.846H19.961v3.846H16.05V26.969H12.2V23.122H16.05V19.941a7.671,7.671,0,1,1,3.911.012ZM17.995,8.662a3.845,3.845,0,1,0,3.852,3.845A3.848,3.848,0,0,0,17.995,8.662Z" transform="translate(-10.292 -4.815)"/>
+</svg>

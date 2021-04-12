@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="22" viewBox="0 0 20 22">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 20px;
+        font-family: NanumSquareR, NanumSquare;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="그룹_75" data-name="그룹 75" transform="translate(-850 -569)">
+    <g id="타원_15" data-name="타원 15" class="cls-1" transform="translate(850 570)">
+      <circle class="cls-3" cx="10" cy="10" r="10"/>
+      <circle class="cls-4" cx="10" cy="10" r="9.5"/>
+    </g>
+    <text id="_" data-name="+" class="cls-2" transform="translate(854 586)"><tspan x="0" y="0">+</tspan></text>
+  </g>
+</svg>

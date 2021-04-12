@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="80" viewBox="0 0 40 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b8722d;
+      }
+    </style>
+  </defs>
+  <path id="Icon_open-badge" data-name="Icon open-badge" class="cls-1" d="M20,0A20,20,0,1,0,40,20,20.059,20.059,0,0,0,20,0ZM10,48.1V80L20,70,30,80V48.1A30.1,30.1,0,0,1,20,50,30.1,30.1,0,0,1,10,48.1Z"/>
+</svg>

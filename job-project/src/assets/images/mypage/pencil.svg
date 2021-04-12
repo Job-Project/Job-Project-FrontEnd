@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #707070;
+      }
+    </style>
+  </defs>
+  <g id="그룹_74" data-name="그룹 74" transform="translate(-405 -531)">
+    <path id="Icon_metro-pencil" data-name="Icon metro-pencil" class="cls-1" d="M19.446,1.928a3.125,3.125,0,0,1,2.5,5L20.7,8.178,16.321,3.8l1.25-1.25a3.111,3.111,0,0,1,1.875-.625ZM3.821,16.3l-1.25,5.625L8.2,20.678,19.758,9.116,15.383,4.741ZM16.547,9.029,7.8,17.779,6.72,16.7l8.75-8.75,1.077,1.077Z" transform="translate(402.429 529.072)"/>
+  </g>
+</svg>

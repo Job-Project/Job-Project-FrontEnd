@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ff4343;
+        stroke: #707070;
+      }
+
+      .cls-2 {
+        fill: #f8f9fa;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="chat_btn_on" data-name="chat btn on" transform="translate(-1720 -920)">
+    <g id="타원_11" data-name="타원 11" class="cls-1" transform="translate(1720 920)">
+      <circle class="cls-3" cx="50" cy="50" r="50"/>
+      <circle class="cls-4" cx="50" cy="50" r="49.5"/>
+    </g>
+    <path id="Icon_metro-bubble" data-name="Icon metro-bubble" class="cls-2" d="M27.571,3.856c-13.807,0-25,9.094-25,20.312s11.193,20.313,25,20.313a30.877,30.877,0,0,0,3.9-.246c5.37,5.37,11.78,6.333,17.977,6.474V49.395c-3.346-1.64-6.25-4.626-6.25-8.039a9.431,9.431,0,0,1,.106-1.4c5.654-3.724,9.269-9.412,9.269-15.786,0-11.218-11.193-20.312-25-20.312Z" transform="translate(1742.429 942.717)"/>
+  </g>
+</svg>

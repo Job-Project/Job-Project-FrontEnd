@@ -47,11 +47,13 @@ export const GuideCont = styled.div`
 export const Picture = styled.img`
     width: 560px;
     height: 385px;
-    padding-left: 100px;
+    padding-left: 60px;
 `
 
 export const Guide = styled.p`
     font-size: 24px;
+    font-weight: bold;
+    letter-spacing: -1px;
     color: #707070;
     line-height: 1.3;
 `;

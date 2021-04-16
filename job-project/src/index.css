@@ -2,7 +2,6 @@
 
 * {
   font-family: 'NanumSquare', sans-serif;
-  border-color: #ffffff;
 }
 
 body {
@@ -10,7 +9,7 @@ body {
   height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  overflow: auto;
 }
 
 code {

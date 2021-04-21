@@ -140,6 +140,7 @@ export const PaginationDiv = styled.div`
 export const PrePageBtn = styled.button`
     width: 11px;
     height: 16px;
+    cursor: pointer;
     background: url(${PrePage}) no-repeat center;
 `;
 

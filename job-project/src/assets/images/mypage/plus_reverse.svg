@@ -2,12 +2,12 @@
   <defs>
     <style>
       .cls-1 {
-        fill: #707070;
-        stroke: #707070;
+        fill: #fff;
+        stroke: #fff;
       }
 
       .cls-2 {
-        fill: #fff;
+        fill: #707070;
         font-size: 12px;
         font-family: NanumSquareR, NanumSquare;
       }
@@ -21,7 +21,7 @@
       }
     </style>
   </defs>
-  <g id="그룹_75" data-name="그룹 75" transform="translate(8.2 -0.618)">
+  <g id="그룹_104" data-name="그룹 104" transform="translate(8.2 -0.618)">
     <g id="타원_15" data-name="타원 15" class="cls-1" transform="translate(-8.2 0.618)">
       <circle class="cls-3" cx="8" cy="8" r="8"/>
       <circle class="cls-4" cx="8" cy="8" r="7.5"/>

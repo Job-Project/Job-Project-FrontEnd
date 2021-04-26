@@ -5,6 +5,7 @@ import Chat from "./components/global/Chat";
     const GlobalStyle = createGlobalStyle`
       body {
         font-family: 'NanumSquare', sans-serif;
+        outline: none;
       }
     `;
 

@@ -1,6 +1,7 @@
 import * as E from '../../assets/style/entrance/EntranceStyle'
 import LogoImg from '../../assets/images/common/logo.svg'
 import intro_img from '../../assets/images/intro/intro_img.svg'
+import {Link} from 'react-router-dom'
 
 const Entrance = () => {
     return(
@@ -9,7 +10,7 @@ const Entrance = () => {
                 <E.FunctionCont>
                     <E.Logo src={LogoImg}></E.Logo>
                     <E.StartBtn>
-                        <E.ToLogin>시작하기</E.ToLogin>
+                        <Link to="/login"><E.ToLogin>시작하기</E.ToLogin></Link>
                     </E.StartBtn>
                 </E.FunctionCont>
                 <E.GuideCont>

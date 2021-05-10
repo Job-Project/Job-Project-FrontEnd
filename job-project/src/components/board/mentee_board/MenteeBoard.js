@@ -1,5 +1,6 @@
 import * as M from "../../../assets/style/board/mentee_board/MenteeBoardStyle"
 import Pagination from '../common/Pagination'
+import {Link} from 'react-router-dom'
 
 const MenteeBoard = () => {
 
@@ -21,10 +22,10 @@ const MenteeBoard = () => {
             <M.MenteeCont>
                 <M.TopArticle>
                     <M.BoardTitle>Mentee's Board</M.BoardTitle>
-                    <M.WritingBtn>
+                    <Link to="/log/Posting"><M.WritingBtn>
                         <M.BtnText>궁금한 정보를 현직자에게 직접 물어보세요</M.BtnText>
                         <M.BtnTitle>질문 작성하기</M.BtnTitle>
-                    </M.WritingBtn>
+                    </M.WritingBtn></Link>
                 </M.TopArticle>
                 <M.BoardAlignBox>
                     <M.BoardAlign id="select" onClick={Selected}>최신순</M.BoardAlign>
@@ -32,70 +33,70 @@ const MenteeBoard = () => {
                     <M.BoardAlign id="unselect" onClick={Selected}>추천순</M.BoardAlign>
                 </M.BoardAlignBox>
                 <M.WritingListArticle>
-                    <M.WritingListBox>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
-                    <M.WritingListBox>
+                    </M.WritingListBox></Link>
+                    <Link to="/log/Post"><M.WritingListBox>
                         <M.WTBox>
                             <M.WritingTitle>Q. 면접 관련 질문이 있습니다.</M.WritingTitle>
                         </M.WTBox>
                         <M.WTBox>
                             <M.WritingText>OO 기업의 마케팅 부서에 지원하여 서류 합격하고 현재는 면접 일정이 잡혔습니다. 면접 대비를 하려고 하는데 무엇을...</M.WritingText>
                         </M.WTBox>
-                    </M.WritingListBox>
+                    </M.WritingListBox></Link>
                 </M.WritingListArticle>
                 <Pagination></Pagination>
             </M.MenteeCont>

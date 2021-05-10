@@ -5,6 +5,7 @@ import * as MU from "../../../assets/style/user_page/other_page/MenteeUserPageSt
 import ProfileImg from "../../../assets/images/common/profile.svg"
 import chat_bubble from "../../../assets/images/mypage/chat_bubble.svg"
 import diamond_trophy from '../../../assets/images/mypage/diamond_trophy.svg'
+import {Link} from 'react-router-dom'
 
 const MentorUserPage = () => {
     return(
@@ -51,33 +52,33 @@ const MentorUserPage = () => {
                         <M.URBTitle>질문 내역</M.URBTitle>
                     </M.URBTitleBox>
                     <M.URListBox>
-                        <R.URList id="done">
+                        <Link to="/log/Post"><R.URList id="done">
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList id="done">
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList id="done">
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
-                        <R.URList>
+                        </R.URList></Link>
+                        <Link to="/log/Post"><R.URList>
                             <M.URListText>면접 관련 질문이 있습니다.</M.URListText>
-                        </R.URList>
+                        </R.URList></Link>
                     </M.URListBox>
                 </M.UserRecordBox>
             </M.ProfileCont>

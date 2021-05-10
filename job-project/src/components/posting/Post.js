@@ -2,15 +2,16 @@ import React from 'react'
 import * as P from '../../assets/style/posting/PostStyle'
 import * as PI from '../../assets/style/posting/PostingStyle'
 import profile_img from '../../assets/images/common/profile.svg'
+import {Link} from 'react-router-dom'
 
 const Post = () => {
     
     const RecommendCheck = () => {
-        let RecommendBtn = document.getElementById("off");
+        let RecommendBtn = document.getElementById("reco_off");
         if(RecommendBtn == undefined)
-            document.getElementById("on").id = "off"
+            document.getElementById("reco_on").id = "reco_off"
         else
-            RecommendBtn.id = "on"
+            RecommendBtn.id = "reco_on"
     }
 
     return(
@@ -19,10 +20,10 @@ const Post = () => {
                 <P.PostArticle>
                     <P.ArticleBox>
                         <PI.PostingTitle>
-                            <PI.ProfileImg src={profile_img}></PI.ProfileImg>
+                            <Link to="/log/userPage/mentee"><PI.ProfileImg src={profile_img}></PI.ProfileImg></Link>
                             <P.PostTitle>Q. 면접 관련 질문이 있습니다</P.PostTitle>
                             <P.RecommendBtn onClick={RecommendCheck}>
-                                <P.RBIcon  id="off"></P.RBIcon>
+                                <P.RBIcon  id="reco_off"></P.RBIcon>
                                 <P.RBText>나도 궁금해요</P.RBText>
                             </P.RecommendBtn>
                         </PI.PostingTitle>
@@ -46,7 +47,7 @@ const Post = () => {
                         </P.PostCont>
                         <P.ReplyContBox id="select_ans">
                             <P.ReplyTitleBox>
-                                <P.ReplyProfileImg src={profile_img}></P.ReplyProfileImg>
+                                <Link to="/log/userPage/mentor"><P.ReplyProfileImg src={profile_img}></P.ReplyProfileImg></Link>
                                 <P.ReplyTitle><P.ReplyName>모두의 멘토</P.ReplyName>님의 답변</P.ReplyTitle>
                             </P.ReplyTitleBox>
                             <P.ReplyContTextBox>

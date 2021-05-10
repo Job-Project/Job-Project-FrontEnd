@@ -16,7 +16,7 @@ const Chat = () => {
     return(
         <div>
             <C.ChatBtn id="off" onClick={ChatOnOff}></C.ChatBtn>
-            <C.ChatBox id="chatbox">
+            <C.ChatBox id="chatbox" style={{display: "none"}}>
                 <C.ChatBoxTitle>
                     <C.CBTitleText>채팅</C.CBTitleText>
                 </C.ChatBoxTitle>

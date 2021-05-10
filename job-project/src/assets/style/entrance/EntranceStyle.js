@@ -35,6 +35,12 @@ export const ToLogin = styled.button`
     border-radius: 45px;
     color: #FF4343;
     background-color: #ffffff;
+    transition: 0.25s;
+    cursor: pointer;
+    &:hover{
+        background-color: #ff4343;
+        color: #ffffff;
+    }
 `;
 
 export const GuideCont = styled.div`

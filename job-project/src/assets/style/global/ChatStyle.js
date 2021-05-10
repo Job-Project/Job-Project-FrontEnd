@@ -4,10 +4,12 @@ import chat_on from '../../images/common/chat_btn_on.svg'
 
 export const ChatBtn = styled.button`
     position: fixed;
+    z-index: 100;
     right: 100px;
     bottom: 50px;
     width: 50px;
     height: 50px;
+    cursor: pointer;
     &#on{
         background: url(${chat_on}) no-repeat center;
     }
@@ -18,6 +20,7 @@ export const ChatBtn = styled.button`
 
 export const ChatBox = styled.div`
     position: fixed;
+    z-index: 100;
     right: 80px;
     bottom: 120px;
     width: 280px;

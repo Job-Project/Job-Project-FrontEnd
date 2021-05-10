@@ -47,10 +47,10 @@ export const RecommendBtn = styled.button`
 export const RBIcon = styled.div`
     width: 40px;
     height: 40px;
-    &#off{
+    &#reco_off{
         background: url(${recommend_off}) no-repeat center;
     }
-    &#on{
+    &#reco_on{
         background: url(${recommend_on}) no-repeat center;
     }
 `;

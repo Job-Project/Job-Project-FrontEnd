@@ -104,13 +104,28 @@ export const PostingFile = styled.div`
     background-color: #ffffff;
 `;
 
-export const PostingFileName = styled.p`
+export const PostingFileName = styled.input`
+    background-color: #ffffff;
+    width: 589px;
     font-size: 15px;
-    color: #dbdbdb;
+    color: #707070;
     margin-left: 25px;
 `;
 
-export const PostingAddFileBtn = styled.button`
+export const AddFileBtn = styled.input.attrs(({
+    type: 'file'
+}))`
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+`;
+
+export const PostingAddFileBtn = styled.div`
     width: 144px;
     height: 40px;
     border: 1px solid #707070;
@@ -118,22 +133,29 @@ export const PostingAddFileBtn = styled.button`
     margin-left: 15px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: #ffffff;
     cursor: pointer;
 `;
 
-export const PAFIcon = styled.div`
+export const PAFIcon = styled.label`
     width: 16px;
     height: 18px;
     background: url(${file_icon}) no-repeat center;
+    padding: 10px 0 10px 25px;
+    border: 1px solid #ffffff;
+    border-radius: 25px 0 0 25px;
+    cursor: pointer;
 `;
 
-export const PAFBtnText = styled.p`
+export const PAFBtnText = styled.label`
     font-size: 15px;
     font-weight: bold;
     color: #707070;
-    margin-left: 10px;
+    padding: 12px 12px 12px 0px;
+    border: 1px solid #ffffff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
 `; 
 
 export const PostingBtn = styled.button`

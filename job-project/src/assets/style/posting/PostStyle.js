@@ -87,15 +87,20 @@ export const DownloadFileBox = styled(P.PostingAddFileBox)`
 export const PostFile = styled(P.PostingFile)`
 `;
 
-export const PostFileName = styled(P.PostingFileName)`
+export const PostFileName = styled.p`
+    font-size: 15px;
     color: #707070;
+    margin-left: 25px;
 `;
 
 export const DownloadFileBtn = styled(P.PostingAddFileBtn)``;
 
 export const DFIcon = styled(P.PAFIcon)``;
 
-export const DFText = styled(P.PAFBtnText)``;
+export const DFText = styled.p`
+    font-size: 15px;
+    color: #707070;
+`;
 
 export const AddReplyBtn = styled.button`
     width: 880px;

@@ -42,3 +42,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+input[type="password"]{
+	font-family:  'Franklin Gothic Medium', 'Arial Narrow',Arial, sans-serif;
+}
+
+input[type="password"]::placeholder{
+	font-family: 'NanumSquare', sans-serif;	
+}

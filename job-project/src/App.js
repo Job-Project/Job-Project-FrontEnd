@@ -10,6 +10,10 @@ import MenteeBoard from "./components/board/mentee_board/MenteeBoard"
 import WorkerBoard from "./components/board/worker_board/WorkerBoard"
 import Posting from "./components/posting/Posting";
 import Post from "./components/posting/Post"
+import Login from "./components/login/Login";
+import SignUp from "./components/sign_up/SignUp";
+import MentorSignUp from "./components/sign_up/MentorSignUp";
+import SignUpDone from "./components/sign_up/SignUpDone";
 
     const GlobalStyle = createGlobalStyle`
       body {
@@ -27,6 +31,10 @@ function App() {
   return (
     <Router>
       <Route path="/" component={GlobalStyle}></Route>
+      <Route path="/login" component={Login}></Route>
+      <Route path="/signUp" component={SignUp}></Route>
+      <Route path="/mentorSignUp" component={MentorSignUp}></Route>
+      <Route path="/signUpDone" component={SignUpDone}></Route>
       <Route path="/log" component={Nav}></Route>
       <Route path="/log" component={Chat}></Route>
       <Route exact path="/" component={Entrance}></Route>
@@ -35,8 +43,6 @@ function App() {
       <Route path="/log/myPage/mentor" component={MentorMyPage}></Route>
       <Route path="/log/userPage/mentee" component={MenteeUserPage}></Route>
       <Route path="/log/userPage/mentor" component={MentorUserPage}></Route>
-      <Route path="/log/myPage/mentee" component={MenteeMyPage}></Route>
-      <Route path="/log/myPage/mentee" component={MenteeMyPage}></Route>
       <Route path="/log/board/mentee" component={MenteeBoard}></Route>
       <Route path="/log/board/worker" component={WorkerBoard}></Route>
       <Route path="/log/Posting" component={Posting}></Route>

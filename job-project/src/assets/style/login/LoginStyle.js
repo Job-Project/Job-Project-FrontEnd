@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import logo from '../../images/common/logo.svg'
 import {radio_btn_off, radio_btn_on} from '../../images/login'
 
 export const LoginArticle = styled.article`
@@ -30,6 +29,7 @@ export const LoginInputBox = styled.div`
 `;
 
 export const LoginInput = styled.input`
+    width: 450px;
     font-size: 20px;
     color: #707070;
     padding-left: 5px;
@@ -53,6 +53,7 @@ export const LoginTypeBtn = styled.input.attrs({
     width: 30px;
     height: 30px;
     background: url(${radio_btn_off}) no-repeat center;
+    cursor: pointer;
     &:checked{
         background: url(${radio_btn_on}) no-repeat center;
     }
@@ -62,6 +63,7 @@ export const Label = styled.label`
     font-size: 20px;
     font-weight: bold;
     color: #FF5757;
+    cursor: pointer;
 `;
 
 export const LoginBtn = styled.button`
@@ -73,9 +75,10 @@ export const LoginBtn = styled.button`
     background-color: #FF8787;
     border-radius: 38px;
     margin-top: 50px;
+    cursor: pointer;
 `;
 
-export const SighUpBtn = styled(LoginBtn)`
+export const SignUpBtn = styled(LoginBtn)`
     background-color: #FF5757;
     margin-top: 35px;
 `;
